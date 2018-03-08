@@ -2,6 +2,7 @@ package com.adithya.githubtutorial;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuInflater;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+    }
+
+    @Override
+    public MenuInflater getMenuInflater() {
+        return super.getMenuInflater();
     }
 }
