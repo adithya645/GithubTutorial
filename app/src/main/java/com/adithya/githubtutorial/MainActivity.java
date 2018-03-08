@@ -20,4 +20,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
     }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
